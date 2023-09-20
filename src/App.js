@@ -19,12 +19,8 @@ import Register from "./components/UserManagement/Register";
 import SecuredRoute from "./securityUtils/SecureRoute";
 import setJWTToken from "./securityUtils/setJWTToken";
 import store from "./store";
-// import ToggleColorMode from "././components/Decoration/darkModeToggleSwitch"
-// import { useState } from "react";
-// import "react-toggle/style.css"
-// import Toggle from "react-toggle";
 
-
+localStorage.clear();
 const jwtToken = localStorage.jwtToken;
 
 if (jwtToken) {

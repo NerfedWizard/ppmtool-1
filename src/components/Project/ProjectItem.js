@@ -1,10 +1,8 @@
-// import { MDBContainer, MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { deleteProject } from "../../actions/projectActions";
-// import { DragDropContext } from 'react-beautiful-dnd';
 class ProjectItem extends Component {
   onDeleteClick = (id) => {
     this.props.deleteProject(id);

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ProjectTask from "./ProjectTasks/ProjectTask";
-import Dragula from "dragula";
 
 class Backlog extends Component {
   render() {

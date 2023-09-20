@@ -5,13 +5,9 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { addProjectTask } from "../../../actions/backlogActions";
 import { MDBRow, MDBCol, MDBInput, MDBContainer, MDBAnimation } from "mdbreact";
-// import { styled } from '@mui/material/styles';
-// import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-// import NativeSelect from '@mui/material/NativeSelect';
-// import InputBase from '@mui/material/InputBase';
 import { FormHelperText } from "@mui/material";
 
 
