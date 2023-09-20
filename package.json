@@ -48,9 +48,8 @@
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"dev": "serve -s build",
-		"serve": "node server.js",
+		"dev": "react-scripts start",
+		"start": "serve -s build",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
