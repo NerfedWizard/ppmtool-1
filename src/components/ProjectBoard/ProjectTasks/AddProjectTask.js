@@ -31,7 +31,7 @@ class AddProjectTask extends Component {
     this.handleChangeStatus = this.handleChangeStatus.bind(this);
     this.handleChangePriority = this.handleChangePriority.bind(this);
   }
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.errors) {
       this.setState({ errors: nextProps.errors });
     }

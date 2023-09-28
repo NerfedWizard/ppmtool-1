@@ -17,7 +17,7 @@ class ProjectBoard extends Component {
     const { id } = this.props.match.params;
     this.props.getBacklog(id);
   }
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.errors) {
       this.setState({ errors: nextProps.errors });
     }
